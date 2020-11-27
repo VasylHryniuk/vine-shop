@@ -1,10 +1,10 @@
 export const navData = [
-    {title: 'Home', link: '/about'},
-    {title: 'Vintage', link: '/trips'},
-    {title: 'Imperial', link: '/careers'},
-    {title: 'Sparklin', link: '/contact'},
-    {title: 'Accessories', link: '/contact'},
-    {title: 'Blog', link: '/contact'},
-    {title: 'Product Details', link: '/contact'},
+    {title: 'Home', link: '/home'},
+    {title: 'Vintage', link: '/vintage'},
+    {title: 'Imperial', link: '/imperial'},
+    {title: 'Sparklin', link: '/sparklin'},
+    {title: 'Accessories', link: '/accessories'},
+    {title: 'Blog', link: '/blog'},
+    {title: 'Product Details', link: '/product'},
     {title: 'Contact', link: '/contact'},
 ]

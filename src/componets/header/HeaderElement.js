@@ -65,7 +65,7 @@ export const Nav = styled.nav`
   align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.6);
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-  padding: 20px 0;
+  padding: 30px 0;
 `;
 
 export const NavLink = styled(Link)`
@@ -75,7 +75,18 @@ export const NavLink = styled(Link)`
   font-family: "Lobster Two", cursive;
   text-decoration: none;
   transition: all 0.3s ease;
+  position: relative;
   &:hover {
-    color: #e2b024;
+    color: #e2b024; 
+    &::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 100%;
+    background: #e2b024;
   }
+  }
+
 `;

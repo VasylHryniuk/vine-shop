@@ -30,9 +30,9 @@ const Header = () => {
           <HeaderLogo to="/">
             <HeaderLogoLink src={Logo} />
           </HeaderLogo>
-          <HeaderItemsLink>Login</HeaderItemsLink>
-          <HeaderItemsLink>Register</HeaderItemsLink>
-          <HeaderItemsLink>Wish List (0)</HeaderItemsLink>
+          <HeaderItemsLink to="/login">Login</HeaderItemsLink>
+          <HeaderItemsLink to="/register">Register</HeaderItemsLink>
+          <HeaderItemsLink to="/wishlist">Wish List (0)</HeaderItemsLink>
           <HeaderItemsLink>
             <HeaderSearchLink src={Search} />
           </HeaderItemsLink>
