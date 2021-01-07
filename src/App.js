@@ -3,7 +3,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { GlobalStyle } from "./GlobalStyle";
 
 import Header from "./componets/header/Header";
-import Hero from "./componets/hero/Hero";
+import Hero from "./pages/hero/Hero";
+import Company from "./pages/company/Company";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Router>
         <Header />
         <Hero />
+        <Company/>
       </Router>
     </>
   );

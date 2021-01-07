@@ -13,9 +13,7 @@ import {
   HeaderLogo,
   HeaderItems,
   HeaderItemsLink,
-  HeaderSearchLink,
-  HeaderLogoLink,
-  HeaderBagLink,
+  HeaderBurger,
   HeaderNav,
   Nav,
   NavLink,
@@ -28,20 +26,22 @@ const Header = () => {
         <HeaderMotto>We Ship Everywhere! Free In The Us!</HeaderMotto>
         <HeaderItems>
           <HeaderLogo to="/">
-            <HeaderLogoLink src={Logo} />
+            <img src={Logo} alt="logo" />
           </HeaderLogo>
           <HeaderItemsLink to="/login">Login</HeaderItemsLink>
           <HeaderItemsLink to="/register">Register</HeaderItemsLink>
           <HeaderItemsLink to="/wishlist">Wish List (0)</HeaderItemsLink>
-          <HeaderItemsLink>
-            <HeaderSearchLink src={Search} />
+          <HeaderItemsLink to="/search">
+            <img src={Search} alt="search" />
           </HeaderItemsLink>
-          <HeaderItemsLink>
-            <HeaderBagLink src={Bag} />
+          <HeaderItemsLink to="/bag">
+            <img src={Bag} alt="bag" />
           </HeaderItemsLink>
-          <HeaderItemsLink>
-            <GiHamburgerMenu style={{ width: "24px", height: "24px" }} />
-          </HeaderItemsLink>
+
+          <HeaderBurger>
+             <GiHamburgerMenu style={{ width: "24px", height: "24px" }} />
+          </HeaderBurger>
+         
         </HeaderItems>
       </HeaderContainer>
 

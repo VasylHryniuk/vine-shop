@@ -12,6 +12,15 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
         /* font-family: 'Lobster Two', cursive; */
+    }
+
+    p{
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        color: white;
         background: black;
     }
 
@@ -22,6 +31,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Container = styled.div`
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 `;

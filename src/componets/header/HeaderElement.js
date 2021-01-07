@@ -25,7 +25,7 @@ export const HeaderContainer = styled.div`
 
 export const HeaderMotto = styled.p``;
 export const HeaderLogo = styled(Link)`
-  margin-right: 113px;
+  margin-right: 65px;
 `;
 
 export const HeaderItems = styled.div`
@@ -46,12 +46,6 @@ export const HeaderItemsLink = styled(Link)`
     color: #e2b024;
   }
 `;
-
-export const HeaderSearchLink = styled.img``;
-
-export const HeaderLogoLink = styled.img``;
-
-export const HeaderBagLink = styled.img``;
 
 export const HeaderNav = styled.div`
   max-width: 1170px;
@@ -74,19 +68,23 @@ export const NavLink = styled(Link)`
   color: #ffffff;
   font-family: "Lobster Two", cursive;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   position: relative;
   &:hover {
-    color: #e2b024; 
-    &::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    height: 2px;
-    width: 100%;
-    background: #e2b024;
+    color: #e2b024;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      height: 2px;
+      width: 100%;
+      background: #e2b024;
+      transition: all 0.4s ease;
+    }
   }
-  }
+`;
 
+export const HeaderBurger = styled.div`
+margin-left: 25px;
 `;
